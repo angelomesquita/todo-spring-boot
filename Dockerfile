@@ -13,4 +13,7 @@ EXPOSE 8080
 CMD ["java", "-jar", "/app/todo.jar"]
 
 
+# Uso do dockerfile
+# - mvn clean package
+# - docker run -p 8080:8080 todo
 # DEPLOY em: https://fly.io/docs/
